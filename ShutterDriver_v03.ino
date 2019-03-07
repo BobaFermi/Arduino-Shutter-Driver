@@ -1,12 +1,3 @@
-/* Shutter Driver for Samsnung Q1 shutters
-/*
-/* - Drive 4 samsung shutters, depending on a manual input or on a TTL
-/* - use motorshield to drive directional current, apply 5V to the shutter solenoids
-/* - use timer for current pulses
-/* - indicate shutter status with led
-/* - this sketch uses an arduino mega. You need to change the pins for an uno.
-/*********************************************************************************/
-
 #include "Timer.h"
 Timer t;
 
